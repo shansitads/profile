@@ -1,0 +1,5 @@
+index.txt
+.DS_Store
+.vscode
+assets/images/blog*.*
+assets/images/project*.*
