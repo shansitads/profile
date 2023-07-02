@@ -684,6 +684,17 @@ main {
   line-height: 1.6;
 }
 
+.modal-text-div {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.modal-text-div > a {
+  color: var(--vegas-gold);
+}
+
 
 /**
  * #clients 
@@ -920,6 +931,10 @@ main {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.portfolio-link {
+  color: var(--vegas-gold);
 }
 
 
@@ -1170,7 +1185,6 @@ main {
     flex-grow: 1;
     width: 100%;
   }
-
 
 
 
