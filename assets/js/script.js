@@ -38,42 +38,44 @@ for (let i = 0; i < navigationLinks.length; i++) {
 }
 
 
-// blog modal
+// portfolio modal
 
-// project variables
-const blogItems = document.querySelectorAll("[data-blog-item]");
-const blogModalContainer = document.querySelector("[data-blog-modal-container]");
-const blogModalCloseBtn = document.querySelector("[data-blog-modal-close-btn]");
-const blogOverlay = document.querySelector("[data-blog-overlay]");
+// portfolio variables
+const portfolioItems = document.querySelectorAll("[data-portfolio-item]");
+const portfolioModalContainer = document.querySelector("[data-portfolio-modal-container]");
+const portfolioModalCloseBtn = document.querySelector("[data-portfolio-modal-close-btn]");
+const portfolioOverlay = document.querySelector("[data-portfolio-overlay]");
 
 // modal variable
-const blogModalImg = document.querySelector("[data-blog-modal-img]");
-const blogModalTitle = document.querySelector("[data-blog-modal-title]");
-const blogModalText = document.querySelector("[data-blog-modal-text]");
+const portfolioModalImg = document.querySelector("[data-portfolio-modal-img]");
+const portfolioModalTitle = document.querySelector("[data-portfolio-modal-title]");
+const portfolioModalText = document.querySelector("[data-portfolio-modal-text]");
+const portfolioModalDate =  document.querySelector("[data-portfolio-modal-date]");
 
 // modal toggle function
-const blogModalFunc = function () {
-  blogModalContainer.classList.toggle("active");
-  blogOverlay.classList.toggle("active");
+const portfolioModalFunc = function () {
+  portfolioModalContainer.classList.toggle("active");
+  portfolioOverlay.classList.toggle("active");
 }
 
 // add click event to all modal items
-for (let i = 0; i < blogItems.length; i++) {
+for (let i = 0; i < portfolioItems.length; i++) {
 
-  blogItems[i].addEventListener("click", function () {
+  portfolioItems[i].addEventListener("click", function () {
 
-    blogModalImg.src = this.querySelector("[data-blog-img]").src;
-    blogModalImg.alt = this.querySelector("[data-blog-img]").alt;
-    blogModalTitle.innerHTML = this.querySelector("[data-blog-title]").innerHTML;
-    blogModalText.innerHTML = this.querySelector("[data-blog-text]").innerHTML;
+    portfolioModalImg.src = this.querySelector("[data-portfolio-img]").src;
+    portfolioModalImg.alt = this.querySelector("[data-portfolio-img]").alt;
+    portfolioModalTitle.innerHTML = this.querySelector("[data-portfolio-title]").innerHTML;
+    portfolioModalText.innerHTML = this.querySelector("[data-portfolio-text]").innerHTML;
+    portfolioModalDate.innerHTML = this.querySelector("[data-portfolio-date]").innerHTML;
 
-    blogModalFunc();
+    portfolioModalFunc();
 
   });
 
 }
 
 // add click event to modal close button
-blogModalCloseBtn.addEventListener("click", blogModalFunc);
-blogOverlay.addEventListener("click", blogModalFunc);
+portfolioModalCloseBtn.addEventListener("click", portfolioModalFunc);
+portfolioOverlay.addEventListener("click", portfolioModalFunc);
 
