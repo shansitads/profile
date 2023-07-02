@@ -569,6 +569,24 @@ main {
   line-height: 1.6;
 }
 
+/**
+* skillcard
+*/
+.skillcards-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.skillcards-item {
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+}
 
 /**
  * #portfolio-modal
@@ -808,7 +826,7 @@ main {
  * skills 
  */
 
-.skills-title { margin-bottom: 20px; }
+/* .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
 
@@ -839,7 +857,7 @@ main {
   background: var(--text-gradient-yellow);
   height: 100%;
   border-radius: inherit;
-}
+} */
 
 
 
@@ -1119,6 +1137,14 @@ main {
 
   .smallcards-content-box { text-align: left; }
 
+  /* skillcards */
+
+  .skillcards-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
   /* clients */
 
   .clients-list {
@@ -1186,7 +1212,7 @@ main {
     width: 100%;
   }
 
-
+}
 
 
 
@@ -1334,6 +1360,12 @@ main {
   .smallcards-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
+  }
+
+  /* skillcards */
+  .skillcards-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 5px;
   }
 
   /* clients */
