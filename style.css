@@ -487,7 +487,21 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
+/* resume download link */
 
+.navbar-resume-link {
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  padding: 20px 7px;
+  transition: color var(--transition-1);
+}
+.navbar-resume-link > a {
+  color: var(--light-gray);
+}
+.navbar-resume-link:hover,
+.navbar-resume-link:focus { color: var(--light-gray-70); }
+
+.navbar-resume-link.active { color: var(--orange-yellow-crayola); }
 
 
 
@@ -1062,6 +1076,7 @@ main {
 
   .navbar-link { --fs-8: 14px; }
 
+  .navbar-resume-link { --fs-8: 14px; }
 
 
   /**
@@ -1194,6 +1209,7 @@ main {
 
   .navbar-link { --fs-8: 15px; }
 
+  .navbar-resume-link { --fs-8: 15px; }
 
 
   /**
@@ -1292,6 +1308,7 @@ main {
 
   .navbar-link { font-weight: var(--fw-500); }
 
+  .navbar-resume-link { font-weight: var(--fw-500); }
 
 
   /**
