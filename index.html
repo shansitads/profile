@@ -47,8 +47,7 @@
 
         <div class="info-content">
           <h1 class="name">Shansita (Sana) <br/>Das Sharma</h1>
-
-          <p class="title">Developer</p>
+          <span class="typing-cursor title"></span>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -152,7 +151,7 @@
           </li>
 
           <li class="navbar-item">
-            <i><a class="navbar-resume-link" href="https://drive.google.com/file/d/1Zcgm6HIPqhBy_-2zgN9z7IpA8bC8QNoZ/view?usp=drive_link" data-nav-link>Resume</a></i>
+            <i><a class="navbar-resume-link" href="https://drive.google.com/file/d/1j89QCXaCqWDzlYQqG56jtUXcOryKwlxI/view?usp=drive_link" data-nav-link>Resume</a></i>
           </li>
 
         </ul>
@@ -397,7 +396,7 @@
               <p class="timeline-text">
                 <i>Modelling and Analysis of Complex Systems (MACS) Lab</i>
                 <br/>> Summer 2023 Internship: Investigating transfer learning methods for data-driven models of cyber-physical systems using real-world data
-                <br/>> Past work: Created an LSTM neural network using buildings' time-series data to ascertain HVAC cooling tower performance
+                <br/>> Past work: Utilized deep learning (recurrent neural networks) on buildings' time-series data to ascertain HVAC cooling tower performance
               </p>
 
             </li>
@@ -726,6 +725,20 @@
     - custom js link
   -->
   <script src="./script.js"></script>
+  
+  <!-- typing animation library -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing-cursor', {
+      strings: ["I'm a developer", "I'm a student", "I'm a researcher"],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+      smartBackspace: true,
+      showCursor: false
+    });
+  </script>
+  
 
   <!--
     - ionicon link
