@@ -1,259 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shansita D Sharma</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shansita D Sharma</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/icons/my-avatar.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/my-avatar.png"
+      type="image/x-icon"
+    />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/icons/my-avatar.png" alt="Shansita" width="80" />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name">Shansita (Sana) <br />Das Sharma</h1>
+            <span class="typing-cursor title"></span>
+          </div>
 
-        <figure class="avatar-box">
-          <img src="./assets/icons/my-avatar.png" alt="Shansita" width="80">
-        </figure>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-        <div class="info-content">
-          <h1 class="name">Shansita (Sana) <br/>Das Sharma</h1>
-          <span class="typing-cursor title"></span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-      </div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      <div class="sidebar-info_more">
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-        <div class="separator"></div>
+                <a href="mailto:shansitads@gmail.com" class="contact-link"
+                  >shansitads@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-          <li class="contact-item">
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+                <address>Nashville, Tennessee, USA</address>
+              </div>
+            </li>
+          </ul>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+          <div class="separator"></div>
 
-              <a href="mailto:shansitads@gmail.com" class="contact-link">shansitads@gmail.com</a>
-            </div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/shansita-das-sharma/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
 
-          </li>
+            <li class="social-item">
+              <a href="https://github.com/shansitads" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Nashville, Tennessee, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/shansita-das-sharma/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/shansitads" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Education</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Experience</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Education</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Experience</button>
-          </li>
+            <li class="navbar-item">
+              <i
+                ><a
+                  class="navbar-resume-link"
+                  href="https://drive.google.com/file/d/1j89QCXaCqWDzlYQqG56jtUXcOryKwlxI/view?usp=drive_link"
+                  data-nav-link
+                  >Resume</a
+                ></i
+              >
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
-          </li>
-
-          <li class="navbar-item">
-            <i><a class="navbar-resume-link" href="https://drive.google.com/file/d/1j89QCXaCqWDzlYQqG56jtUXcOryKwlxI/view?usp=drive_link" data-nav-link>Resume</a></i>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              I'm a sophomore student at Vanderbilt University, studying
+              Computer Science, Mathematics and Data Science.
+            </p>
+          </section>
 
-        <section class="about-text">
-          <p>
-            I'm a sophomore student at Vanderbilt University, studying Computer Science, Mathematics and Data Science.
-            I'm interested in software engineering and data science and on the lookout for oppurtunities for the same.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - smallcards
         -->
 
-        <section class="smallcards">
+          <section class="smallcards">
+            <h3 class="h3 smallcards-title">What i'm upto</h3>
 
-          <h3 class="h3 smallcards-title">What i'm upto</h3>
+            <ul class="smallcards-list">
+              <li class="smallcards-item">
+                <div class="smallcards-icon-box">
+                  <img
+                    src="./assets/icons/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="smallcards-list">
+                <div class="smallcards-content-box">
+                  <h4 class="h4 smallcards-item-title">Machine learning</h4>
 
-            <li class="smallcards-item">
+                  <p class="smallcards-item-text">
+                    Investigating transfer learning for data-driven models of
+                    cyber-physical systems as a research intern
+                  </p>
+                </div>
+              </li>
 
-              <div class="smallcards-icon-box">
-                <img src="./assets/icons/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+              <li class="smallcards-item">
+                <div class="smallcards-icon-box">
+                  <img
+                    src="./assets/icons/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="smallcards-content-box">
-                <h4 class="h4 smallcards-item-title">Machine learning</h4>
+                <div class="smallcards-content-box">
+                  <h4 class="h4 smallcards-item-title">Deep Learning</h4>
 
-                <p class="smallcards-item-text">
-                  Investigating transfer learning for data-driven models of cyber-physical systems as a research intern
-                </p>
-              </div>
+                  <p class="smallcards-item-text">
+                    I'm self-learning deep learning and reinforcement learning
+                    through online courses!
+                  </p>
+                </div>
+              </li>
 
-            </li>
+              <li class="smallcards-item">
+                <div class="smallcards-icon-box">
+                  <img
+                    src="./assets/icons/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
 
-            <li class="smallcards-item">
+                <div class="smallcards-content-box">
+                  <h4 class="h4 smallcards-item-title">Student Orgs</h4>
 
-              <div class="smallcards-icon-box">
-                <img src="./assets/icons/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
+                  <p class="smallcards-item-text">
+                    Working on a discord bot and a promotional website for
+                    VandyHacks + working on starting new AI club :)
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-              <div class="smallcards-content-box">
-                <h4 class="h4 smallcards-item-title">React native</h4>
+          <section class="skills">
+            <h3 class="h3 smallcards-title">Skills</h3>
 
-                <p class="smallcards-item-text">
-                  Maintaining, improving and managing a react native project that implements a barter system
-                </p>
-              </div>
-
-            </li>
-
-            <li class="smallcards-item">
-
-              <div class="smallcards-icon-box">
-                <img src="./assets/icons/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="smallcards-content-box">
-                <h4 class="h4 smallcards-item-title">Student Orgs</h4>
-
-                <p class="smallcards-item-text">
-                  Working on a discord bot and a promotional website for VandyHacks
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-        <section class="skills">
-
-          <h3 class="h3 smallcards-title">Skills</h3>
-
-          <div class="info-content">
-            <ul class="skillcards-list">
-                <li class="skillcards-item">C++</li>
+            <div class="info-content">
+              <ul class="skillcards-list">
                 <li class="skillcards-item">Python</li>
+                <li class="skillcards-item">C++</li>
                 <li class="skillcards-item">Java</li>
                 <li class="skillcards-item">Tensorflow (Keras)</li>
-                <li class="skillcards-item">Scikit-learn</li>
                 <li class="skillcards-item">Pandas/Numpy</li>
                 <li class="skillcards-item">Data visualization</li>
                 <li class="skillcards-item">React Native</li>
@@ -261,213 +251,215 @@
                 <li class="skillcards-item">HTML/CSS</li>
                 <li class="skillcards-item">Machine Learning</li>
                 <li class="skillcards-item">Web development</li>
-                <li class="skillcards-item">App development</li>
+                <li class="skillcards-item">App development (iOS)</li>
+              </ul>
+            </div>
+          </section>
+        </article>
 
-            </ul>
-          </div>
-
-        </section>
-        
-        
-      </article>
-
-
-
-      <!--
+        <!--
         - #EDUCATION
       -->
 
-      <article class="education" data-page="education">
+        <article class="education" data-page="education">
+          <header>
+            <h2 class="h2 article-title">Education</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Education</h2>
-        </header>
+          <!--Education section-->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <!--Education section-->
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Vanderbilt University</h4>
 
-          <ol class="timeline-list">
+                <span>May 2026</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  <i
+                    >Double major in Computer Science and Mathematics, Minor in
+                    Data Science</i
+                  ><br />
+                  > Cornelius Vanderbilt Scholarship: Full-tuition merit
+                  scholarship awarded to under 1% of applicants.<br />
+                  > GPA: 4.0/4.0 (Dean's List)<br />
+                </p>
+                <p class="timeline-text">
+                  > Activities and societies: VandyHacks Development Board,
+                  Developer @ Vanderbilt Data Science Club, Editorial Review
+                  Board for Vanderbilt Undergraduate Research Journal, Badminton
+                  Club
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Vanderbilt University</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Shikshantar Senior Secondary School
+                </h4>
 
-              <span>May 2026</span>
+                <span>May 2022</span>
 
-              <p class="timeline-text">
-                <i>Double major in Computer Science and Mathematics, Minor in Data Science</i><br/>
-                > Cornelius Vanderbilt Scholarship: Full-tuition merit scholarship awarded to under 1% of applicants.<br/>
-                > GPA: 4.0/4.0 (Dean's List)<br/>
-              </p>
-              <p class="timeline-text">
-                > Activities and societies: VandyHacks, Vanderbilt Data Science Club, Badminton Club
-              </p>
+                <p class="timeline-text">
+                  <i>High School Diploma, ISC</i><br />
+                  > Grade: 99%<br />
+                </p>
+                <p class="timeline-text">
+                  > Activities and societies: Student Council IT Committee,
+                  Badminton School Team Captain
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Shikshantar Senior Secondary School</h4>
-
-              <span>May 2022</span>
-
-              <p class="timeline-text">
-                <i>High School Diploma, ISC</i><br/>
-                > Grade: 99%<br/>
-              </p>
-              <p class="timeline-text">
-                > Activities and societies: Student Council IT Committee, Badminton School Team Captain
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        
-
-      </article>
-
-
-      <!--
+        <!--
         - #EXPERIENCE
       -->
 
-      <article class="experience" data-page="experience">
+        <article class="experience" data-page="experience">
+          <header>
+            <h2 class="h2 article-title">Experience</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Experience</h2>
-        </header>
+          <!--Experience section-->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <!--Experience section-->
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Research Intern @ Institute for Software Integrated Systems
+                </h4>
 
-          <ol class="timeline-list">
+                <span>Oct 2022 — Present</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  <i>Modelling and Analysis of Complex Systems (MACS) Lab</i>
+                  <br />> Integrated transfer learning methods in deep learning
+                  models for energy optimization of cyber-physical systems.
+                  <br />> Performed real-world data cleaning, feature selection,
+                  optimization<br />Key tools: recurrent neural networks,
+                  time-series data, Keras, Pytorch, Python
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Data Science Intern @ cure.fit (cult.fit)</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Data Science Intern @ cure.fit (cult.fit)
+                </h4>
 
-              <span>May 2023 — Jul 2023</span>
+                <span>May 2023 — Jul 2023</span>
 
-              <p class="timeline-text">
-                > Focusing on business intelligence to predict membership renewals by utilizing machine learning, SQL, Metabase
-                <br/>> Conducting user retention analysis using app interactions, booking activity and demographic information
-              </p>
+                <p class="timeline-text">
+                  > Created and deployed a machine learning model to predict
+                  user behavior for a 2 million user base by collecting user
+                  activity and app interaction information and wrote end-to-end
+                  documentation for this project
+                  <br />Key tools: Databricks, MySQL, Apache Spark, Metbase,
+                  Trino query engine, Delta Lake, AutoML, business intelligence
+                </p>
+              </li>
 
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineering Intern @ Drishtee Sustainable Communities
+                </h4>
 
-            <li class="timeline-item">
+                <span>Jan 2023 — Apr 2023</span>
 
-              <h4 class="h4 timeline-item-title">Software Engineering Intern @ Drishtee Sustainable Communities</h4>
+                <p class="timeline-text">
+                  > Resolved platform compatibility issues, performed code
+                  reviews and added new app screens compatible with the updated
+                  PHP backend in a cross-platform barter system app for rural
+                  communities
+                  <br />> Key tools: React Native, GitHub
+                </p>
+              </li>
 
-              <span>Jan 2023 — Apr 2023</span>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineering Intern @ Hitachi MGRM Net
+                </h4>
 
-              <p class="timeline-text">
-                > Enhancing, debugging and testing a cross-platform React Native app to enable a barter system in rural communities
-                <br/>> Worked on updating the deprecated node packages in the app and resolving compatibility issues
-              </p>
+                <span>May 2021 — Jul 2021</span>
 
-            </li>
+                <p class="timeline-text">
+                  > Modeled a queueing algorithm to match patients, nurses, and
+                  doctors, in an e-governance telemedicine application used by
+                  15 dispensaries and 2 hospitals, matching 100+ patients per
+                  day<br />
+                  > Automated conversion of high school exam results from raw
+                  text to spreadsheets using text pattern analysis; analyzed
+                  exam performance statistics using data of 1500+ students
+                </p>
+              </li>
+            </ol>
+          </section>
 
-            <li class="timeline-item">
+          <!--Student Orgs section-->
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-              <h4 class="h4 timeline-item-title">Research Intern @ Institute for Software Integrated Systems</h4>
-
-              <span>Oct 2022 — Present</span>
-
-              <p class="timeline-text">
-                <i>Modelling and Analysis of Complex Systems (MACS) Lab</i>
-                <br/>> Summer 2023 Internship: Investigating transfer learning methods for data-driven models of cyber-physical systems using real-world data
-                <br/>> Past work: Utilized deep learning (recurrent neural networks) on buildings' time-series data to ascertain HVAC cooling tower performance
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Software Engineering Intern @ Hitachi MGRM Net</h4>
-
-              <span>May 2021 — Jul 2021</span>
-
-              <p class="timeline-text">
-                > Modeled a queueing algorithm to match patients, nurses, and doctors, in an e-governance telemedicine application used by 15 dispensaries and 2 hospitals, matching 100+ patients per day<br/>
-                > Automated conversion of high school exam results from raw text to spreadsheets using text pattern analysis; analyzed exam performance statistics using data of 1500+ students
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <!--Student Orgs section-->
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Student Organizations</h3>
             </div>
 
-            <h3 class="h3">Student Organizations</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">VandyHacks</h4>
 
-          <ol class="timeline-list">
+                <span>Software Engineer, Development Committee Board</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text"></p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">VandyHacks</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vanderbilt Undergraduate Research Journal (VURJ)
+                </h4>
 
-              <span>Software Engineer, Development Committee Board</span>
+                <span>Editorial Review Board for Engineering</span>
 
-              <p class="timeline-text">
-              </p>
+                <p class="timeline-text"></p>
+              </li>
 
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vanderbilt Data Science Club
+                </h4>
 
-            <li class="timeline-item">
+                <span>Developer</span>
 
-              <h4 class="h4 timeline-item-title">Vanderbilt Data Science Club</h4>
+                <p class="timeline-text"></p>
+              </li>
 
-              <span>Developer</span>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Vanderbilt Badminton Club
+                </h4>
 
-              <p class="timeline-text">
-              </p>
+                <p class="timeline-text"></p>
+              </li>
+            </ol>
+          </section>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Vanderbilt Badminton Club</h4>
-
-              <p class="timeline-text">
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <!--Skill section-->
-        <!-- <section class="skill">
+          <!--Skill section-->
+          <!-- <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
 
@@ -489,263 +481,306 @@
           </ul>
 
         </section> -->
+        </article>
 
-        
-
-      </article>
-
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="projects" data-page="projects">
+        <article class="projects" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
+          <section class="portfolio-posts">
+            <ul class="portfolio-posts-list">
+              <li class="portfolio-post-item" data-portfolio-item>
+                <a href="#">
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/portfolio-emailassist.jpg"
+                      alt="project image"
+                      loading="lazy"
+                      data-portfolio-img
+                    />
+                  </figure>
 
-        <section class="portfolio-posts">
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">
+                        Natural Language Processing
+                      </p>
 
-          <ul class="portfolio-posts-list">
+                      <span class="dot"></span>
 
-            <li class="portfolio-post-item" data-portfolio-item>
-              
-              <a href="#">
+                      <time datetime="2023" data-portfolio-date>2023</time>
+                    </div>
 
-                <figure class="portfolio-banner-box">
-                  <img src="./assets/images/portfolio-emailassist.jpg" alt="project image" loading="lazy" data-portfolio-img>
-                </figure>
+                    <h3 class="h3 portfolio-item-title" data-portfolio-title>
+                      Email Assist
+                    </h3>
 
-                <div class="portfolio-content">
-
-                  <div class="portfolio-meta">
-                    <p class="portfolio-category">Natural Language Processing</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2023" data-portfolio-date>2023</time>
+                    <div class="portfolio-text" data-portfolio-text>
+                      <p>
+                        An Email Tool designed to help people with cognitive
+                        disabilities.
+                        <br />Features: <br />> Summarize recieved emails (using
+                        HuggingFace transformers) <br />> Sentiment analysis of
+                        recieved emails (using HuggingFace transformers) <br />>
+                        Text completion and rephrasing written text (using
+                        GPT-3)
+                      </p>
+                      <button
+                        class="portfolio-link"
+                        onclick="window.open('https://drive.google.com/file/d/1eElLN5tamWVsxTbu5VGjcIgF8s9RizKh/view?usp=drive_link','_blank')"
+                      >
+                        View project poster
+                      </button>
+                    </div>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 portfolio-item-title" data-portfolio-title>Email Assist</h3>
+              <li class="portfolio-post-item" data-portfolio-item>
+                <a href="#">
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/portfolio-hackabot.jpg"
+                      alt="project image"
+                      loading="lazy"
+                      data-portfolio-img
+                    />
+                  </figure>
 
-                  <div class="portfolio-text" data-portfolio-text>
-                    <p>
-                      An Email Tool designed to help people with cognitive disabilities.
-                      <br/>Features:
-                      <br/>> Summarize recieved emails (using HuggingFace transformers)
-                      <br/>> Sentiment analysis of recieved emails (using HuggingFace transformers)
-                      <br/>> Text completion and rephrasing written text (using GPT-3)
-                    </p>
-                    <button class="portfolio-link" onclick="window.open('https://drive.google.com/file/d/1eElLN5tamWVsxTbu5VGjcIgF8s9RizKh/view?usp=drive_link','_blank')">View project poster</button>
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">Software Engineering</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023" data-portfolio-date>2023</time>
+                    </div>
+
+                    <h3 class="h3 portfolio-item-title" data-portfolio-title>
+                      Hackabot - Discord Bot
+                    </h3>
+
+                    <div class="portfolio-text" data-portfolio-text>
+                      <p>
+                        A Discord bot that automatically answers users'
+                        questions in a chat based on a provided spreadsheet of
+                        FAQ information. The goal was to reduce response times
+                        and make things easier for organizers at events using
+                        Discord as a chat platform.
+                        <br />Tools used: sentence transformers, Python, Discord
+                        API
+                      </p>
+                      <button
+                        class="portfolio-link"
+                        onclick="window.open('https://github.com/shansitads/hackabot','_blank')"
+                      >
+                        Github
+                      </button>
+                    </div>
                   </div>
+                </a>
+              </li>
 
-                </div>
+              <li class="portfolio-post-item" data-portfolio-item>
+                <a href="#">
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/portfolio-virtualexpo.jpg"
+                      alt="project image"
+                      loading="lazy"
+                      data-portfolio-img
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">
+                        Full-stack web development
+                      </p>
 
-            <li class="portfolio-post-item" data-portfolio-item>
-              <a href="#">
+                      <span class="dot"></span>
 
-                <figure class="portfolio-banner-box">
-                  <img src="./assets/images/portfolio-hackabot.jpg" alt="project image" loading="lazy" data-portfolio-img>
-                </figure>
+                      <time datetime="2021" data-portfolio-date>2021</time>
+                    </div>
 
-                <div class="portfolio-content">
+                    <h3 class="h3 portfolio-item-title" data-portfolio-title>
+                      Virtual Art Exposition
+                    </h3>
 
-                  <div class="portfolio-meta">
-                    <p class="portfolio-category">Software Engineering</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2023" data-portfolio-date>2023</time>
+                    <div class="portfolio-text" data-portfolio-text>
+                      <p>
+                        Developed the website for the first Virtual Art
+                        Portfolio Exposition at Shikshantar School
+                        <br />> Managed 500+ art pieces by 100 participating
+                        artists and organised in JSON (Python, Javascript)
+                        <br />> Created a backend system to fetch images that
+                        minimizes website loading time (Python) <br />> Designed
+                        device responsive GUI (HTML, CSS, Javascript) <br />>
+                        Weekly discussions and feedback sessions with the Visual
+                        Arts team
+                      </p>
+                    </div>
                   </div>
+                </a>
+              </li>
 
-                  <h3 class="h3 portfolio-item-title" data-portfolio-title>Hackabot - Discord Bot</h3>
-                  
-                  <div class="portfolio-text" data-portfolio-text>
-                    <p>
-                      A Discord bot that automatically answers users' questions in a chat based on a provided spreadsheet of FAQ information. The goal was to reduce response times and make things easier for organizers at events using Discord as a chat platform.
-                      <br/>Tools used: sentence transformers, Python, Discord API
-                    </p>
-                    <button class="portfolio-link" onclick="window.open('https://github.com/shansitads/hackabot','_blank')">Github</button>
+              <li class="portfolio-post-item" data-portfolio-item>
+                <a href="#">
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/portfolio-potterdodge.jpg"
+                      alt="project image"
+                      loading="lazy"
+                      data-portfolio-img
+                    />
+                  </figure>
+
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">
+                        Full-stack App Development
+                      </p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2021" data-portfolio-date>2021</time>
+                    </div>
+
+                    <h3 class="h3 portfolio-item-title" data-portfolio-title>
+                      Potter Dodge - iOS App
+                    </h3>
+
+                    <div class="portfolio-text" data-portfolio-text>
+                      <p>
+                        Flappy bird, but Harry Potter themed. The goal of is to
+                        get your player past as many Quidditch hoops as
+                        possible. It's an old project but a fun one.
+                        <br />Tools: Swift, Xcode
+                      </p>
+                      <button
+                        class="portfolio-link"
+                        onclick="window.open('https://github.com/shansitads/PotterDodge','_blank')"
+                      >
+                        Github
+                      </button>
+                    </div>
                   </div>
-                </div>
+                </a>
+              </li>
 
-              </a>
-            </li>
+              <li class="portfolio-post-item" data-portfolio-item>
+                <a href="#">
+                  <figure class="portfolio-banner-box">
+                    <img
+                      src="./assets/images/portfolio-gottago.jpg"
+                      alt="project image"
+                      loading="lazy"
+                      data-portfolio-img
+                    />
+                  </figure>
 
-            <li class="portfolio-post-item" data-portfolio-item>
-              <a href="#">
+                  <div class="portfolio-content">
+                    <div class="portfolio-meta">
+                      <p class="portfolio-category">
+                        Full-stack App Development
+                      </p>
 
-                <figure class="portfolio-banner-box">
-                  <img src="./assets/images/portfolio-virtualexpo.jpg" alt="project image" loading="lazy" data-portfolio-img>
-                </figure>
+                      <span class="dot"></span>
 
-                <div class="portfolio-content">
+                      <time datetime="2021" data-portfolio-date>2020</time>
+                    </div>
 
-                  <div class="portfolio-meta">
-                    <p class="portfolio-category">Full-stack web development</p>
+                    <h3 class="h3 portfolio-item-title" data-portfolio-title>
+                      GottaGo - iOS App
+                    </h3>
 
-                    <span class="dot"></span>
-
-                    <time datetime="2021" data-portfolio-date>2021</time>
+                    <div class="portfolio-text" data-portfolio-text>
+                      <p>
+                        'GottaGo' is an app, which upon opening, will make your
+                        phone look like you are receiving a call. The purpose of
+                        the app is to excuse yourself from uncomfortable
+                        situations by saying that you need to take a call.
+                        <br />Tools: Swift, Xcode
+                      </p>
+                    </div>
                   </div>
+                </a>
+              </li>
+            </ul>
+          </section>
 
-                  <h3 class="h3 portfolio-item-title" data-portfolio-title>Virtual Art Exposition</h3>
-
-                  <div class="portfolio-text" data-portfolio-text>
-                    <p>
-                      Developed the website for the first Virtual Art Portfolio Exposition at Shikshantar School
-                      <br/>> Managed 500+ art pieces by 100 participating artists and organised in JSON (Python, Javascript)
-                      <br/>> Created a backend system to fetch images that minimizes website loading time (Python)
-                      <br/>> Designed device responsive GUI (HTML, CSS, Javascript)
-                      <br/>> Weekly discussions and feedback sessions with the Visual Arts team
-                    </p>
-                  </div>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="portfolio-post-item" data-portfolio-item>
-              <a href="#">
-
-                <figure class="portfolio-banner-box">
-                  <img src="./assets/images/portfolio-potterdodge.jpg" alt="project image" loading="lazy" data-portfolio-img>
-                </figure>
-
-                <div class="portfolio-content">
-
-                  <div class="portfolio-meta">
-                    <p class="portfolio-category">Full-stack App Development</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2021" data-portfolio-date>2021</time>
-                  </div>
-
-                  <h3 class="h3 portfolio-item-title" data-portfolio-title>Potter Dodge - iOS App</h3>
-                
-                  <div class="portfolio-text" data-portfolio-text>
-                    <p>
-                      Flappy bird, but Harry Potter themed. The goal of is to get your player past as many Quidditch hoops as possible. It's an old project but a fun one.
-                      <br/>Tools: Swift, Xcode
-                    </p>
-                    <button class="portfolio-link" onclick="window.open('https://github.com/shansitads/PotterDodge','_blank')">Github</button>
-                  </div>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="portfolio-post-item" data-portfolio-item>
-              <a href="#">
-
-                <figure class="portfolio-banner-box">
-                  <img src="./assets/images/portfolio-gottago.jpg" alt="project image" loading="lazy" data-portfolio-img>
-                </figure>
-
-                <div class="portfolio-content">
-
-                  <div class="portfolio-meta">
-                    <p class="portfolio-category">Full-stack App Development</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2021" data-portfolio-date>2020</time>
-                  </div>
-
-                  <h3 class="h3 portfolio-item-title" data-portfolio-title>GottaGo - iOS App</h3>
-                  
-                  <div class="portfolio-text" data-portfolio-text>
-                    <p>
-                      'GottaGo' is an app, which upon opening, will make your phone look like you are receiving a call. The purpose of the app is to excuse yourself from uncomfortable situations by saying that you need to take a call.
-                      <br/>Tools: Swift, Xcode
-                    </p>
-                  </div>
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-         <!--
+          <!--
           - portfolio modal
         -->
 
-        <div class="modal-container" data-portfolio-modal-container>
+          <div class="modal-container" data-portfolio-modal-container>
+            <div class="overlay" data-portfolio-overlay></div>
 
-          <div class="overlay" data-portfolio-overlay></div>
+            <section class="portfolio-modal">
+              <button class="modal-close-btn" data-portfolio-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-          <section class="portfolio-modal">
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-portfolio-modal-title>
+                  Project Name
+                </h4>
 
-            <button class="modal-close-btn" data-portfolio-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
+                <time datetime="2004-06-14" data-portfolio-modal-date
+                  >14 June, 2004</time
+                >
 
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-portfolio-modal-title>Project Name</h4>
-
-              <time datetime="2004-06-14" data-portfolio-modal-date>14 June, 2004</time>
-
-              <div class="modal-text-div" data-portfolio-modal-text>
+                <div class="modal-text-div" data-portfolio-modal-text>
                   <!--This will contain the text from the associated card clicked-->
+                </div>
+
+                <div class="modal-img-wrapper">
+                  <img
+                    src="./assets/images/portfolio-1.png"
+                    alt="Project picture"
+                    data-portfolio-modal-img
+                  />
+                </div>
               </div>
+            </section>
+          </div>
+        </article>
+      </div>
+    </main>
 
-
-              <div class="modal-img-wrapper">
-                <img src="./assets/images/portfolio-1.png" alt="Project picture" data-portfolio-modal-img>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./script.js"></script>
-  
-  <!-- typing animation library -->
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing-cursor', {
-      strings: ["I'm a developer", "I'm a student", "I'm a researcher"],
-      typeSpeed: 50,
-      backSpeed: 50,
-      loop: true,
-      smartBackspace: true,
-      showCursor: false
-    });
-  </script>
-  
+    <script src="./script.js"></script>
 
-  <!--
+    <!-- typing animation library -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script type="text/javascript">
+      var typed = new Typed(".typing-cursor", {
+        strings: ["I'm a developer", "I'm a student", "I'm a researcher"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+        smartBackspace: true,
+        showCursor: false,
+      });
+    </script>
+
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
