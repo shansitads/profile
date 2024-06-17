@@ -569,6 +569,16 @@ main {
   line-height: 1.6;
 }
 
+.smallcards-item-text a {
+  color: inherit; /* Makes the link inherit the color of the paragraph */
+  display: inline;
+  text-decoration: none; /* Removes underline from the link */
+  font-style: italic;
+}
+.smallcards-item-text a:hover {
+  text-decoration: underline; /* Optional: Adds underline on hover for better UX */
+}
+
 /**
 * skillcard
 */
