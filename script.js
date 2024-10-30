@@ -50,7 +50,7 @@ const portfolioOverlay = document.querySelector("[data-portfolio-overlay]");
 const portfolioModalImg = document.querySelector("[data-portfolio-modal-img]");
 const portfolioModalTitle = document.querySelector("[data-portfolio-modal-title]");
 const portfolioModalText = document.querySelector("[data-portfolio-modal-text]");
-const portfolioModalDate =  document.querySelector("[data-portfolio-modal-date]");
+const portfolioModalDate = document.querySelector("[data-portfolio-modal-date]");
 
 // modal toggle function
 const portfolioModalFunc = function () {
@@ -79,3 +79,34 @@ for (let i = 0; i < portfolioItems.length; i++) {
 portfolioModalCloseBtn.addEventListener("click", portfolioModalFunc);
 portfolioOverlay.addEventListener("click", portfolioModalFunc);
 
+// Dropdown menu for education
+document.addEventListener('DOMContentLoaded', function () {
+  // Get all dropdown buttons
+  const dropdownButtons = document.querySelectorAll('.dropdown-button');
+
+  // Add click event listener to each button
+  dropdownButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Get the associated content
+      const dropdownId = button.getAttribute('data-dropdown');
+      const content = document.querySelector(`[data-dropdown-content="${dropdownId}"]`);
+
+      // Toggle active classes
+      button.classList.toggle('active');
+      content.classList.toggle('active');
+    });
+  });
+});
+
+// Add this to your existing script.js file
+document.addEventListener('DOMContentLoaded', function () {
+  const toolsToggles = document.querySelectorAll('.tools-toggle');
+
+  toolsToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const content = toggle.nextElementSibling;
+      toggle.classList.toggle('active');
+      content.classList.toggle('active');
+    });
+  });
+});
